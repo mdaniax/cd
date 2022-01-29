@@ -6,8 +6,11 @@ dependencies:
   - blpapi
   - cmake
   - cython
+  - pip
   - pyarrow
   - pip:
+    - numpy
+    - pandas
     - pdblp
     - streamlit
   
