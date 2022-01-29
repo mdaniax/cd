@@ -3,13 +3,14 @@ channels:
   - anaconda
   - conda-forge
 dependencies:
+  - numpy==1.21.2
   - blpapi
   - cmake
   - cython
   - pip
   - pyarrow
   - pip:
-    - numpy
+    
     - pandas
     - pdblp
     - streamlit
