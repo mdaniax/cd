@@ -2,7 +2,6 @@ name: dashboard
 channels:
   - conda-forge
 dependencies:
-  - numpy==1.16.2
   - blpapi=3.17.1=py37_blpapicpp3.16.1.1_0
   - cmake
   - cython
@@ -10,11 +9,9 @@ dependencies:
   - pyarrow
   - streamlit
   - pip:
-    - tensorflow
-    - numpy==1.16.2
     - pandas
     - pdblp
-    - numpy==1.16.2
+    
   
     
     
