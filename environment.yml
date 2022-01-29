@@ -7,8 +7,9 @@ dependencies:
   - cmake
   - cython
   - pyarrow
-  - pdblp
-  - streamlit
+  - pip:
+    - pdblp
+    - streamlit
   
     
     
