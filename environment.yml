@@ -8,12 +8,12 @@ dependencies:
   - cython
   - pip
   - pyarrow
+  - streamlit
   - pip:
     - tensorflow
     - numpy==1.16.2
     - pandas
     - pdblp
-    - streamlit
     - numpy==1.16.2
   
     
