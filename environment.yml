@@ -3,14 +3,16 @@ channels:
   - anaconda
   - conda-forge
 dependencies:
-  - blpapi
+  - blpapi=3.17.1=py37_blpapicpp3.16.1.1_0
   - cmake
   - cython
   - pip
   - pyarrow
   - pip:
+    - pdblp==0.1.8
     - pandas
-    - pdblp    
+    
+    
     
 
 prefix: C:\Users\javedm\Anaconda3\envs\dashboard
