@@ -1,6 +1,5 @@
 name: dashboard
 channels:
-  - anaconda
   - conda-forge
 dependencies:
   - numpy==1.21.2
@@ -10,10 +9,11 @@ dependencies:
   - pip
   - pyarrow
   - pip:
-    
+    - numpy==1.21.2
     - pandas
     - pdblp
     - streamlit
+    - numpy==1.21.2
   
     
     
