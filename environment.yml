@@ -1,5 +1,6 @@
 name: dashboard
 channels:
+  - anaconda
   - conda-forge
 dependencies:
   - blpapi=3.17.1=py37_blpapicpp3.16.1.1_0
